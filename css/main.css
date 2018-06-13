@@ -1,9 +1,10 @@
 *{
-  border:solid 1px black;
+  /* border:solid 1px black; */
   box-sizing:border-box;
 }
+
 body{
-  font-family: font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif', serif;
   line-height: 1.45;
 }
 
@@ -92,6 +93,17 @@ h6{
   margin-bottom: 10px;
   padding:12px 8px;
   border-radius: 8px;
+  font-size: 1.2rem;
+}
+.footer button{
+  border-radius: 8px;
+  background-color: #FFBE00;
+  color:white;
+  border-color: transparent;
+
+}
+.footer textarea{
+  min-height: 160px;
 }
 /* Text Helpers*/
 .text-center{
@@ -145,7 +157,7 @@ h6{
  .margin-top-none{
    margin-top: 0;
 
-   }
+  }
    .margin-bottom-none{
      margin-bottom: 0;
-   }
+  }
