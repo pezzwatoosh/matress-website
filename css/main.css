@@ -61,9 +61,23 @@ h5{
 h6{
 
 }
+/*QUOTE SECTION*/
+.quote{
+  min-height: 50vh;
+}
+.quote q{
+  font-size: 2rem;
+}
+.quote p{
+  font-size: 1.75rem;
+  opacity:0.5;
+}
 /* Text Helpers*/
 .text-center{
   text-align: center;
+}
+.text-right{
+  text-align:right;
 }
 .text-white{
   color: white;
