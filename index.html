@@ -6,6 +6,7 @@
    <title>Matress Website</title>
 
    <!-----CSS---->
+   <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Roboto:400,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/gridlex.min.css">
@@ -57,17 +58,22 @@
   </section>
 
  <!------FOOTER------>
- <section class="grid">
+ <section class="grid-middle-noGutter-noBottom footer text-white">
    <div class="col-6">
-     <h6>Lets Connect</h6>
+     <div class="padding-left-right">
+     <h6 class="margin-y-none roboto-bold">Lets<br><span class="text-yellow">Connect</span></h6>
      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
    </div>
+   </div>
 
-   <div class="col-6">
-     <div class="col-12">Your Name</div>
-     <div class="col-12"> Your Email</div>
-     <div class="col-12"> Tell us what you think</div>
-     <div class="col-12">Submit Button</div>
+   <div class="col-6 ">
+     <form class="padding-left-right">
+      <input type="text"placeholder="Your Name"/>
+      <input type="email"placeholder="Your Email"/>
+      <textarea placeholder="Tell us how many matresses you'd like"></textarea>
+      <button type="submit">Hit me!</button>
+     </form>
+
    </div>
  </section>
 

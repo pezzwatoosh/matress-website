@@ -1,7 +1,11 @@
 *{
   border:solid 1px black;
+  box-sizing:border-box;
 }
-
+body{
+  font-family: font-family: 'Noto Serif', serif;
+  line-height: 1.45;
+}
 
 .banner{
   min-height: 100vh;
@@ -29,6 +33,7 @@
     background-position: left -160px;
     min-height:50vh;
   }
+
 
 }
 h1{
@@ -59,6 +64,7 @@ h5{
 
 }
 h6{
+  font-size: 4rem;
 
 }
 /*QUOTE SECTION*/
@@ -71,6 +77,21 @@ h6{
 .quote p{
   font-size: 1.75rem;
   opacity:0.5;
+}
+
+/*FOOTER SECTION*/
+.footer{
+  background-color: #192B37;
+  min-height:75vh;
+
+}
+.footer form *{
+  display: block;
+  width:100%;
+  margin-top:10px;
+  margin-bottom: 10px;
+  padding:12px 8px;
+  border-radius: 8px;
 }
 /* Text Helpers*/
 .text-center{
