@@ -1,0 +1,115 @@
+*{
+  border:solid 1px black;
+}
+
+
+.banner{
+  min-height: 100vh;
+  background-image: url('../img/leaves.jpg');
+  background-size: cover;
+
+}
+ .dog{
+  background-image:url('../img/dog.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
+  .bed{
+    background-image: url('../img/bed.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+
+  }
+  .pencil{
+    background-image: url('../img/pencil.jpg');
+    background-size: cover;
+    background-position: left -160px;
+    min-height:50vh;
+  }
+
+}
+h1{
+  font-size: 2rem;
+
+
+
+}
+
+h2{
+
+}
+h3{
+  font-size: 5rem;
+  margin-bottom: 1rem;
+
+}
+h4{
+  font-size: 5rem;
+
+
+}
+h5{
+  font-size: 2rem;
+
+
+
+}
+h6{
+
+}
+/* Text Helpers*/
+.text-center{
+  text-align: center;
+}
+.text-white{
+  color: white;
+}
+.text-yellow{
+  color:#FFBE00;
+}
+ /*FONT  HELPERS*/
+ .roboto-regular{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+ }
+ .roboto-bold{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+ }
+
+ /*SPACING HELPERS*/
+ .padding-left{
+   padding-left:5%;
+
+ }
+ .padding-right{
+   padding-right: 5%;
+ }
+
+ .padding-left-right{
+   padding-left:5%;
+   padding-right:5%;
+ }
+
+.margin-none{
+  margin:0;
+}
+ .margin-y-none{
+   margin-top:0;
+   margin-bottom: 0;
+ }
+ .margin-x-none{
+   margin-left: 0;
+   margin-right: 0;
+ }
+
+ .margin-top-none{
+   margin-top: 0;
+
+   }
+   .margin-bottom-none{
+     margin-bottom: 0;
+   }
